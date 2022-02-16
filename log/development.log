@@ -14,3 +14,29 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 15ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 3565)
 
 
+Started GET "/cable" for ::1 at 2022-02-16 21:59:22 +0100
+Started GET "/cable/" [WebSocket] for ::1 at 2022-02-16 21:59:22 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Subscription class not found: "TeacherClassroomChannel"
+Subscription class not found: "TeacherClassroomChannel"
+Subscription class not found: "TeacherClassroomChannel"
+Subscription class not found: "TeacherClassroomChannel"
+Subscription class not found: "TeacherClassroomChannel"
+Subscription class not found: "TeacherClassroomChannel"
+Started GET "/" for ::1 at 2022-02-16 22:00:21 +0100
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/kevin/.rvm/gems/ruby-3.0.2/gems/railties-6.1.4.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/kevin/.rvm/gems/ruby-3.0.2/gems/railties-6.1.4.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.5ms | Allocations: 486)
+Completed 200 OK in 17ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 3565)
+
+
+Started GET "/cable" for ::1 at 2022-02-16 22:00:22 +0100
+Started GET "/cable/" [WebSocket] for ::1 at 2022-02-16 22:00:22 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Subscription class not found: "TeacherClassroomChannel"
+Subscription class not found: "TeacherClassroomChannel"
+Subscription class not found: "TeacherClassroomChannel"
+Subscription class not found: "TeacherClassroomChannel"
+Subscription class not found: "TeacherClassroomChannel"
+Subscription class not found: "TeacherClassroomChannel"
